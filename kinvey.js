@@ -77,7 +77,7 @@
                             return {
                                 method: 'PUT',
                                 url: file._uploadURL,
-                                data: filedata,
+                                file: filedata,
                                 headers: angular.extend({
                                     'Content-Type': mimeType,
                                     'Accept': undefined
